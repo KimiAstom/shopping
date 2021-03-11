@@ -1,0 +1,524 @@
+/*分类*/
+.wrap1 {
+    height: 465px;
+}
+
+.wrap1 .main .menu {
+    float: left;
+    width: 209px;
+    height: 465px;
+}
+
+.wrap1 .main .menu ul li a {
+    position: relative;
+    display: block;
+    padding-left: 13px;
+    width: 209px;
+    height: 31px;
+    line-height: 31px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.wrap1 .main .menu ul li a:hover,
+.wrap1 .main .menu ul li a:active {
+    background-color: #ffffff;
+    color: #c81623;
+}
+
+.wrap1 .main .menu ul li a::after {
+    content: "";
+    position: absolute;
+    right: 11px;
+    font-family: icomoon;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 31px;
+}
+
+.wrap1 .main .banner {
+    position: relative;
+    float: left;
+    margin: 10px 0 0 10px;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.wrap1 .main .banner ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+
+.wrap1 .main .banner ul li {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.wrap1 .main .banner ul li img {
+    width: 721px;
+    height: 455px;
+}
+
+.wrap1 .main .banner .r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 20px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    transform: translate(0, -50%);
+}
+
+.wrap1 .main .banner .l {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 20px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    transform: translate(0, -50%);
+}
+
+.wrap1 .main .banner .r img,
+.wrap1 .main .banner .l img {
+    position: absolute;
+    top: 15px;
+    left: 3px;
+    width: 12px;
+
+}
+
+.wrap1 .main .banner ol {
+    position: absolute;
+    top: 430px;
+    left: 50px;
+    width: 100px;
+    height: 15px;
+}
+
+.wrap1 .main .banner ol li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.wrap1 .main .other {
+    float: left;
+    width: 250px;
+    height: 454px;
+    margin-top: 11px;
+    margin-left: 9px;
+}
+
+.wrap1 .main .other .news {
+    width: 250px;
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.wrap1 .main .other .news .newsHeader {
+    width: 248px;
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 32px;
+    padding-left: 15px;
+}
+
+.wrap1 .main .other .news .newsHeader a {
+    display: block;
+    width: 248px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.wrap1 .main .other .news .newsHeader a span {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.wrap1 .main .other .news .newsHeader a::after {
+    content: "";
+    font-family: icomoon;
+    font-size: 12px;
+    color: #333333;
+}
+
+.wrap1 .main .other .news ul li {
+    width: 248px;
+    height: 24px;
+}
+
+.wrap1 .main .other .news ul li:nth-of-type(1) {
+    margin-top: 3px;
+}
+
+.wrap1 .main .other .news ul li a {
+    display: block;
+    padding-left: 15px;
+    width: 230px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wrap1 .main .other .news ul li a span {
+    font-weight: 700;
+}
+
+.wrap1 .main .other .easy {
+    width: 254px;
+    height: 209px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.wrap1 .main .other .easy ul li {
+    float: left;
+    width: 62.25px;
+    height: 69.7px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+
+.wrap1 .main .other .easy ul li a {
+    display: block;
+    width: 61.25px;
+    height: 68.7px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.wrap1 .main .other .easy ul li a img {
+    width: 19px;
+    height: 24px;
+}
+
+.wrap1 .main .other .easy ul li a p {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #333333;
+}
+
+.wrap1 .main .other .ad {
+    margin-top: 5px;
+    width: 250px;
+    height: 75px;
+}
+
+.wrap1 .main .other .ad img {
+    width: 250px;
+    height: 75px;
+}
+
+/*推荐*/
+.recommend {
+    height: 163px;
+    margin-top: 11px !important;
+}
+
+.recommend dl dt {
+    float: left;
+    width: 206px;
+    height: 163px;
+    line-height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recommend dl dd {
+    float: left;
+    width: 248px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recommend dl dd a {
+    display: block;
+    width: 248px;
+    height: 163px;
+    text-align: center;
+    line-height: 163px;
+}
+
+.recommend dl dd:nth-of-type(n+2) a img {
+    padding: 0 21px;
+    border-left: 1px solid #dddddd;
+
+}
+
+/*猜你喜欢*/
+.like {
+    height: 261px;
+    margin-top: 31px !important;
+}
+
+.like .title {
+    height: 18px;
+}
+
+.like .title h3 {
+    float: left;
+    width: 100px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.like .title h4 {
+    float: right;
+    width: 78px;
+    height: 18px;
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.like .title h4 img {
+    padding-left: 11px;
+    vertical-align: bottom;
+}
+
+.like .products {
+    height: 233px;
+    margin-top: 10px;
+    border: 1px solid #ededed;
+}
+
+.like .products ul li {
+    float: left;
+    width: 198.5px;
+    height: 231px;
+}
+
+.like .products ul li a {
+    display: block;
+    width: 198.5px;
+    height: 231px;
+    text-align: center;
+}
+
+.like .products ul li a img {
+    width: 159.5px;
+    height: 141px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.like .products ul li a div {
+    width: 198.5px;
+    height: 56px;
+}
+
+.like .products ul li:nth-of-type(n+2) a div {
+    border-left: 1px solid #ededed;
+}
+
+.like .products ul li a div p {
+    width: 197.5px;
+    height: 34px;
+    padding: 0 38.5px;
+    line-height: 17px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.like .products ul li a div i {
+    display: block;
+    width: 197.5px;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 7px;
+    padding: 0 39px;
+    font-size: 15px;
+    color: #df3033;
+    text-align: left;
+}
+
+/*有趣区*/
+.interesting {
+    height: 433px;
+    margin-top: 30px !important;
+}
+
+.interesting .title {
+    height: 18px;
+    line-height: 18px;
+}
+
+.interesting .title h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.interesting .products {
+    height: 407px;
+    margin-top: 8px;
+    border: 1px solid #ededed;
+}
+
+.interesting .products .book {
+    float: left;
+    width: 404px;
+    height: 405px;
+}
+
+.interesting .products .book a img {
+    width: 404px;
+    height: 405px;
+}
+
+.interesting .products .thing {
+    float: left;
+    width: 227px;
+    height: 405px;
+    border-right: 1px solid #ededed;
+}
+
+.interesting .products .thing .title {
+    width: 192px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 17px;
+    border-bottom: 1px dashed #ededed;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+}
+
+.interesting .products .thing .keyboard {
+    height: 207px;
+    width: 226px;
+    line-height: 207px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+
+.interesting .products .thing .keyboard a img {
+    width: 226px;
+}
+
+.interesting .products .thing .goodThings {
+    height: 158px;
+    width: 226px;
+    line-height: 158px;
+    text-align: center;
+}
+
+.interesting .products .thing .goodThings a img {
+    width: 226px;
+}
+
+.interesting .products .brand {
+    float: left;
+    width: 406px;
+    height: 405px;
+    border-right: 1px solid #ededed;
+    background-color: #f7f7f7;
+}
+
+.interesting .products .brand .title {
+    width: 365px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 20px;
+    border-bottom: 1px dashed #ededed;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+}
+
+.interesting .products .brand .supor {
+    width: 405px;
+    height: 207px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+
+.interesting .products .brand .supor a img {
+    width: 405px;
+}
+
+.interesting .products .brand div {
+    width: 405px;
+    height: 159px;
+}
+
+.interesting .products .brand div .adidas {
+    float: left;
+    width: 203px;
+    height: 159px;
+    border-right: 1px solid #ededed;
+    text-align: center;
+}
+
+.interesting .products .brand div .adidas a img {
+    margin-top: 10px;
+    width: 202px;
+}
+
+.interesting .products .brand div .sale {
+    float: left;
+    width: 202px;
+    height: 159px;
+    text-align: center;
+}
+
+.interesting .products .brand div .sale a img {
+    width: 202px;
+}
+
+.interesting .products .brands {
+    float: left;
+    width: 156px;
+    height: 405px;
+}
+
+.interesting .products .brands ul li:nth-of-type(2n-1) {
+    float: left;
+    width: 78px;
+    height: 58px;
+    line-height: 58px;
+    border-right: 1px dashed #ededed;
+    border-bottom: 1px dashed #ededed;
+}
+
+.interesting .products .brands ul li:nth-of-type(2n) {
+    float: left;
+    width: 78px;
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 1px dashed #ededed;
+}
+
+.interesting .products .brands ul li:nth-of-type(n+13) {
+    height: 57px;
+    line-height: 57px;
+    border-bottom: none;
+}
+
+.interesting .products .brands ul li a img {
+    width: 77px;
+}
